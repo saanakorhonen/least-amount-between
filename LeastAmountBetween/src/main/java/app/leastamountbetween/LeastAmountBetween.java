@@ -45,6 +45,8 @@ public class LeastAmountBetween {
             }
         }
         
+        // If array couldn't be counted (ie. the result value is still the default value),
+        // return -1 as an erros signal for simplicitys sake.
         return result != Integer.MAX_VALUE ? result : -1;
     }
     
