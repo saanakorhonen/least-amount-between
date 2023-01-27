@@ -109,9 +109,4 @@ public class LeastAmountBetween {
         // Indexes beyond n don't hold a value.
         return Arrays.copyOfRange(result, 0, n);
     }
-    
-    public static void main(String[] args) {
-        int[] arr = {2, 15, 8, 4, 15, 60, 100, 1, 3, 80};
-        System.out.println(count(arr));
-    }
 }
